@@ -1,0 +1,89 @@
+:root {
+  /**
+   *  Primary: Main theme color, used for hyperlinks, focus styles, and component and form active states.
+   */
+  --ud-color-primary: #DF4B13;
+  --ud-color-primary-hover: #b93301;
+  --ud-color-primary-active: #b93301;
+  --ud-color-secondary: #6c757d;
+  --ud-color-secondary-hover: #5c636a;
+  --ud-color-secondary-active: #565e64;
+  --ud-color-tertiary: #c1c2c4;
+  --ud-color-tertiary-hover: #d3d4d5;
+  --ud-color-tertiary-active: #d3d4d5;
+  
+  --ud-color-success: #198754;
+  --ud-color-success-hover:#107445;
+  --ud-color-success-active:#107445;
+  --ud-color-warning:#ffc107;
+  --ud-color-warning-hover:#e4ac07;
+  --ud-color-warning-active:#e4ac07;
+  --ud-color-danger:#dc3545;
+  --ud-color-danger-hover:#ce2a3a;
+  --ud-color-danger-active:#ce2a3a;
+  --ud-color-info: #0dcaf0;
+  --ud-color-info-hover: #0bb4d6;
+  --ud-color-info-active: #0bb4d6;
+
+  --ud-background-canvas: #ffffff;
+  --ud-ui-disabled: #6c757d;
+
+  --ud-border-width: 1px;
+  --ud-border-style: solid;
+  --ud-border-color: #dee2e6;
+  --ud-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --ud-emphasis-color: #000;
+
+
+  --ud-body-font-family: 'Roboto', sans-serif;
+  --ud-root-font-size: 20px;
+  --ud-body-font-size: 0.8rem; /* 16px */
+  --ud-body-font-weight: 400;
+  --ud-body-line-height: 1.5;
+  --ud-body-color: #212529;
+  --ud-body-bg: #fff;
+  --ud-body-canvas-surface: #fff;
+
+  --ud-body-text-and-icon-standard: #000;
+  --ud-body-text-and-icon-additional: rgba(0, 0, 0, 0.6);
+  --ud-body-text-and-icon-disabled: rgba(0, 0, 0, 0.4);;
+  --ud-color-text-icon-standard: #000;
+  --ud-body-text-and-icon-white-standard: #fff;
+  --ud-body-text-and-icon-white-disabled: #fff;
+
+  --ud-body-text-and-icon-black-standard: #000;
+  --ud-body-text-and-icon-black-disabled: #000;
+
+  --ud-font-weight-normal: 400;
+  --ud-font-weight-medium: 500;
+  --ud-font-weight-bold: 700;
+  --ud-font-weight-extrabold: 900;
+
+  --ud-font-size-16: 0.8rem;
+  --ud-font-size-14: 0.7rem;
+  --ud-font-size-12: 0.6rem;
+  --ud-font-size-10: 0.5rem;
+
+  --ud-border-radius-4: 0.2rem;
+  --ud-border-radius-8: 0.4rem;
+  --ud-border-radius-16: 0.8rem;
+  --ud-border-radius-20: 1rem;
+  --ud-border-radius-30: 1.5rem;
+  --ud-border-radius-circle: 50%;
+
+  --ud-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --ud-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --ud-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  --ud-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+
+  --ud-link-color: var(--ud-color-primary);
+  --ud-link-decoration: underline;
+  --ud-link-hover-color: var(--ud-color-primary-hover);
+
+  --ud-shadow-inner: inset 1px 2px 4px rgba(0,0,0,0.1);
+  --ud-shadow-xs: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  --ud-shadow-sm: 0 3px 5px rgba(0,0,0,0.15),0 2px 4px rgba(0,0,0,0.12);
+  --ud-shadow-md: 0 10px 20px rgba(0,0,0,0.15),0 3px 6px rgba(0,0,0,0.1);
+  --ud-shadow-lg: 0 15px 25px rgba(0,0,0,0.15),0 5px 10px rgba(0,0,0,0.05);
+  --ud-shadow-xl: 0 20px 40px rgba(0,0,0,0.2);
+}

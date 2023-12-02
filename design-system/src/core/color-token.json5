@@ -1,0 +1,18 @@
+{
+    core: {
+        colors: {
+            white: {
+                value: '#ffffff',
+                type: 'color',
+            },
+            black: {
+                value: '#000000',
+                type: 'color',
+            },
+            primary: {
+                value: '#00ccff',
+                type: 'color',
+            }
+        }
+    }
+}

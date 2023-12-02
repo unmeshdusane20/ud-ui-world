@@ -1,0 +1,12 @@
+@import './helpers/mini-reset.scss';
+@import './utilities';
+
+html {
+  font-size: var(--ud-root-font-size);
+  line-height: 1.2;
+}
+body {
+  font-family: var(--ud-body-font-family);
+  font-size: var(--ud-body-font-size);
+  box-sizing: border-box;
+}
